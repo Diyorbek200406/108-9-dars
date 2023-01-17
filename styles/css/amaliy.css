@@ -470,6 +470,7 @@ section#postss .container .post h3 {
 footer#footer {
   width: 1440px;
   height: 620px;
+  background: #141414;
 }
 
 footer#footer .container {
@@ -480,22 +481,77 @@ footer#footer .container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
-  background-color: aqua;
+  background: #141414;
 }
 
 footer#footer .container .qator1 {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
+  border-bottom: 1px solid #4d4d4d;
+  margin-bottom: 30px;
 }
 footer#footer .container .qator1 img {
   height: 20px;
+  background-color: #fff;
+}
+footer#footer .container .qator1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
 }
 
 footer#footer .container .qator2 {
   display: flex;
   justify-content: start;
-  gap: 75px;
+  gap: 115px;
+}
+footer#footer .container .qator2 .ustun p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  padding-bottom: 20px;
+}
+footer#footer .container .qator2 .ustun h3 {
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+footer#footer .container .qator2 .ustun-2, footer#footer .container .qator2 .ustun-3, footer#footer .container .qator2 .ustun-4 {
+  padding-top: 32px;
+}
+footer#footer .container .qator2 .ustun-5 {
+  padding-top: 10px;
+}
+footer#footer .container .qator2 .ustun-5 input {
+  width: 221px;
+  height: 48px;
+  padding: 18px 24px;
+}
+footer#footer .container .qator2 .ustun-5 button {
+  width: 79px;
+  height: 48px;
+  background: #000000;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 footer#footer .container .qator3 {
@@ -505,4 +561,21 @@ footer#footer .container .qator3 {
 footer#footer .container .qator3 .tola {
   display: flex;
   gap: 150px;
+}
+footer#footer .container .qator3 .tola .tikka p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+}
+footer#footer .container .qator3 .tola .tikka h3 {
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }/*# sourceMappingURL=amaliy.css.map */

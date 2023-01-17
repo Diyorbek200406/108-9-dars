@@ -455,6 +455,7 @@ section#postss .container .post {
 footer#footer {
   width: 1440px;
   height: 620px;
+  background: #141414;
 }
 footer#footer .container {
   background-color: transparent;
@@ -464,20 +465,79 @@ footer#footer .container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
-  background-color: aqua;
+  background: #141414;
 }
 footer#footer .container .qator1 {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
+  border-bottom: 1px solid #4d4d4d;
+  margin-bottom: 30px;
   img {
     height: 20px;
+    background-color: #fff;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
   }
 }
 footer#footer .container .qator2 {
   display: flex;
   justify-content: start;
-  gap: 75px;
+  gap: 115px;
+  .ustun {
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #666666;
+      padding-bottom: 20px;
+    }
+    h3 {
+      padding-top: 15px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+    &-2,
+    &-3,
+    &-4 {
+      padding-top: 32px;
+    }
+    &-5 {
+      padding-top: 10px;
+      input {
+        width: 221px;
+        height: 48px;
+        padding: 18px 24px;
+      }
+      button {
+        width: 79px;
+        height: 48px;
+        background: #000000;
+        border: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
 }
 footer#footer .container .qator3 {
   width: 50%;
@@ -485,5 +545,24 @@ footer#footer .container .qator3 {
   .tola {
     display: flex;
     gap: 150px;
+    .tikka {
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #666666;
+      }
+      h3 {
+        padding-top: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
   }
 }
