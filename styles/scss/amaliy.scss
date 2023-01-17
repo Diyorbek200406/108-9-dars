@@ -59,14 +59,14 @@ section#tabiat {
   height: 700px;
 }
 section#tabiat .container {
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
   height: 100%;
   display: flex;
   background-color: transparent;
   border-top: 1px solid rgba(0, 0, 0, 0.272);
 }
 section#tabiat .container .left {
-  margin-left: 120px;
   width: 60%;
   background-color: transparent;
   display: flex;
